@@ -18,7 +18,7 @@ class Person:
             return("invalid age")
 
     def __str__(self):
-       return f"My name is {self.Name}and I am {self.Age} years old "
+       return f"My name is {self.Name} and I am {self.Age} years old "
    
 First_Person = Person("Layla",15)
 print(First_Person.Name)
